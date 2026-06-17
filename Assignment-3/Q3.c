@@ -1,0 +1,26 @@
+// Write a function to calculate sum and product into a single function and print result in calling function.
+// (Do not use global variables for result)
+
+#include <stdio.h>
+
+void sumProduct(int a, int b, int *sum, int *product)
+{
+    *sum = a + b;
+    *product = a * b;
+}
+
+int main()
+{
+    int num1, num2;
+    int sum, product;
+
+    printf("Enter two numbers: ");
+    scanf("%d%d", &num1, &num2);
+
+    sumProduct(num1, num2, &sum, &product);
+
+    printf("Sum = %d\n", sum);
+    printf("Product = %d\n", product);
+
+    return 0;
+}
