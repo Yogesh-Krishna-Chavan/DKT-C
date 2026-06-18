@@ -1,0 +1,26 @@
+/* =========================
+   PAGE SETTINGS
+   ========================= */
+@page {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+/* =========================
+   WATERMARK
+   ========================= */
+body::before {
+  content: "SUNBEAM";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  font-size: 130px;
+  font-weight: bold;
+  color: rgba(255, 0, 0, 0.15);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: -1;
+}

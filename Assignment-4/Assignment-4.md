@@ -1,8 +1,8 @@
 # C Programming - Assignment-04
 
-## Q.1 Write a program to accept marks of five subjects and calculate its average.
+### Q.1 Write a program to accept marks of five subjects and calculate its average.
 
-### Concepts Used
+#### Concepts Used
 
 - Array
 - For Loop
@@ -10,9 +10,9 @@
 
 ---
 
-## Q.2 Write two different functions to find maximum and minimum of the array elements.
+### Q.2 Write two different functions to find maximum and minimum of the array elements.
 
-### Concepts Used
+#### Concepts Used
 
 - Arrays
 - Functions
@@ -21,9 +21,9 @@
 
 ---
 
-## Q.3 Write a function to reverse an array.
+### Q.3 Write a function to reverse an array.
 
-### Concepts Used
+#### Concepts Used
 
 - Arrays
 - Functions
